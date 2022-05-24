@@ -12,6 +12,9 @@ public class Ex3_3 {
             System.out.println("はらぺこです。");
             System.out.println(food + "を、いただきます。");
         }
+        // 三項演算子だったら if文 が 1 行 で書ける。
+        String mes = (isHungry == 0) ? "お腹がいっぱいです" : "腹ペコです。" + food + "をいただきます。";
+        System.out.println(mes);
         System.out.println("ごちそうさまでした。");
     }
 }
